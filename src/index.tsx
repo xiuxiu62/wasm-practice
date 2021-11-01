@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./index.css";
 
-function App(): JSX.Element {
-  return (
-    <React.StrictMode>
-      <p className="center">hello world</p>
-    </React.StrictMode>
-  );
-}
+const App: React.FC = (): JSX.Element => (
+  <React.StrictMode>
+    <div className="min-h-screen m-8 flex flex-col text-center">
+      <u>
+        <h1 className="text-xl">hello world</h1>
+      </u>
+    </div>
+  </React.StrictMode>
+);
 
 ReactDOM.render(<App />, document.querySelector("#root"));
