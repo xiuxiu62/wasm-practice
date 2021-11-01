@@ -1,6 +1,7 @@
 *.log
 
-/node_modules
 /build
 /dist
+/node_modules
 /pkg
+/target
